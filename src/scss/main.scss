@@ -1,0 +1,21 @@
+/*
+Theme Name: Portfolio - fgustafsson.
+Author: Frida Gustafsson
+Author URI: fgustafsson.se
+Version: 4.0
+*/
+
+// Base
+@import 'core/core';
+@import 'core/base';
+@import 'core/font';
+
+// Specific layout
+@import 'layout/header';
+@import 'layout/global';
+@import 'layout/wip';
+@import 'layout/contact';
+@import 'layout/project';
+
+// Extra
+@import 'extra/flexslider';

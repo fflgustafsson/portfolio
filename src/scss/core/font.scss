@@ -1,0 +1,65 @@
+// 
+// Font
+//
+
+@font-face {
+    font-family: 'HKgrotesk';
+    src: url('src/fonts/hkgrotesk-light-webfont.eot');
+    src: url('src/fonts/hkgrotesk-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('src/fonts/hkgrotesk-light-webfont.woff2') format('woff2'),
+         url('src/fonts/hkgrotesk-light-webfont.woff') format('woff'),
+         url('src/fonts/hkgrotesk-light-webfont.ttf') format('truetype'),
+         url('src/fonts/hkgrotesk-light-webfont.svg#hk_grotesklight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HKgrotesk';
+    src: url('src/fonts/hkgrotesk-regular-webfont.eot');
+    src: url('src/fonts/hkgrotesk-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('src/fonts/hkgrotesk-regular-webfont.woff2') format('woff2'),
+         url('src/fonts/hkgrotesk-regular-webfont.woff') format('woff'),
+         url('src/fonts/hkgrotesk-regular-webfont.ttf') format('truetype'),
+         url('src/fonts/hkgrotesk-regular-webfont.svg#hk_groteskregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'HKgrotesk';
+    src: url('src/fonts/hkgrotesk-medium-webfont.eot');
+    src: url('src/fonts/hkgrotesk-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('src/fonts/hkgrotesk-medium-webfont.woff2') format('woff2'),
+         url('src/fonts/hkgrotesk-medium-webfont.woff') format('woff'),
+         url('src/fonts/hkgrotesk-medium-webfont.ttf') format('truetype'),
+         url('src/fonts/hkgrotesk-medium-webfont.svg#hk_groteskmedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'HKgrotesk';
+    src: url('src/fonts/hkgrotesk-semibold-webfont.eot');
+    src: url('src/fonts/hkgrotesk-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('src/fonts/hkgrotesk-semibold-webfont.woff2') format('woff2'),
+         url('src/fonts/hkgrotesk-semibold-webfont.woff') format('woff'),
+         url('src/fonts/hkgrotesk-semibold-webfont.ttf') format('truetype'),
+         url('src/fonts/hkgrotesk-semibold-webfont.svg#hk_grotesksemibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HKgrotesk';
+    src: url('src/fonts/hkgrotesk-bold-webfont.eot');
+    src: url('src/fonts/hkgrotesk-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('src/fonts/hkgrotesk-bold-webfont.woff2') format('woff2'),
+         url('src/fonts/hkgrotesk-bold-webfont.woff') format('woff'),
+         url('src/fonts/hkgrotesk-bold-webfont.ttf') format('truetype'),
+         url('src/fonts/hkgrotesk-bold-webfont.svg#hk_groteskbold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}

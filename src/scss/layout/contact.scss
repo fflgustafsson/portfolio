@@ -1,0 +1,61 @@
+.contact{
+	
+	&__img{
+		width: 46%;
+		float: left;
+		margin: 20px;
+
+		img{
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	&__intro{
+		float: left;
+    	width: 46%;
+    	margin: 20px;
+    	display: inline-block;
+
+    	h1{
+	    	margin: 0.5em 0;
+	    }
+
+	    @media all and (max-width:1440px) {
+			min-height: 500px;
+		}
+
+		@media all and (max-width:1024px) {
+			min-height: 400px;
+		}
+
+	}
+
+	section {
+		display: inline-block;
+	}
+
+	&__columns{
+		width: 46%;
+		float: left;
+		margin: 20px;
+		min-height: 230px;
+		text-align: center;
+		display: inline-block;
+
+		.fa{
+    		text-align: center;
+    		font-size: 1.5em;
+
+    	}
+
+    	@media all and (max-width:1440px) {
+			min-height: 230px;
+		}
+
+		@media all and (max-width:1024px) {
+			min-height: 250px;
+		}
+	}
+
+}
