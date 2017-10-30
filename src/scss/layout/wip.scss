@@ -1,13 +1,20 @@
-section.workinprogress{
-	font-family:$font-family;
-	height: auto;
-	width:100%;
-	text-align:center;
+// 
+// WIP
+//
+
+section.workinprogress {
+	width: 100vw;
+	height: 100vh;
+	box-sizing: border-box;
 	padding: 25vh 0;
+	font-family: 'HKgrotesk', sans-serif;
+	text-align: center;
 }
 
-.page-id-13{
+.page-id-13 {
+
 	.header{
 		display: none;
 	}
+
 }
