@@ -445,6 +445,9 @@ function create_post_type_projects()
         'public' => true,
         'hierarchical' => true, // Allows your posts to behave like Hierarchy Pages
         'has_archive' => true,
+        // 'rewrite' => array(
+        //         'slug' => 'projekt'
+        //  ),
         'supports' => array(
             'title',
             'editor',

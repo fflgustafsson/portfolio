@@ -6,15 +6,17 @@ the_post();
 
 	<section class="page">
 
-		<?php
+		<ul class="project__wrap">
+			<?php
 			$i = 1;
 			$recent = new WP_Query(); 
 			$recent->query('post_type=projects'); 
 			while($recent->have_posts()) : $recent->the_post(); ?>
 
-			<div class="project">
+			<li class="project">
 
-				<a href="<?php the_field('lank'); ?>">
+				<!-- <a href="<?php the_field('lank'); ?>"> -->
+				<a href="<?php the_permalink(); ?>">
 
 					<div class="project__bg">
 						<?php the_post_thumbnail();?>
@@ -28,11 +30,12 @@ the_post();
 
 				</a>
 			
-			</div>
+			</li>
 
 			<?php
 			$i++;
 			endwhile;?>
+		</ul>
 
 	</section>
 	
