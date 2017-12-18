@@ -28,16 +28,16 @@
 					<?php wp_nav_menu(array('menu' => 'Main-menu')); ?>
 				</div>
 				<div class="nav__mobile__social">
-					<a href="https://www.facebook.com/fflgustafsson/">
+					<a href="https://www.facebook.com/fflgustafsson/" target="_blank">
 						<i class="fa fa-facebook" aria-hidden="true"></i>
 					</a>
-					<a href="https://www.instagram.com/_fgustafsson/">
+					<a href="https://www.instagram.com/_fgustafsson/"" target="_blank">
 						<i class="fa fa-instagram" aria-hidden="true"></i>
 					</a>
-					<a href="https://twitter.com/_fgustafsson">
+					<a href="https://twitter.com/_fgustafsson" target="_blank">
 						<i class="fa fa-twitter" aria-hidden="true"></i>
 					</a>
-					<a href="https://se.linkedin.com/in/fgustafsson95">
+					<a href="https://se.linkedin.com/in/fgustafsson95" target="_blank">
 						<i class="fa fa-linkedin" aria-hidden="true"></i>
 					</a>
 				</div>
@@ -66,16 +66,16 @@
 			</div>
 
 			<div class="header__social">
-				<a href="https://www.facebook.com/fflgustafsson/">
+				<a href="https://www.facebook.com/fflgustafsson/" target="_blank">
 					<i class="fa fa-facebook" aria-hidden="true"></i>
 				</a>
-				<a href="https://www.instagram.com/_fgustafsson/">
+				<a href="https://www.instagram.com/_fgustafsson/" target="_blank">
 					<i class="fa fa-instagram" aria-hidden="true"></i>
 				</a>
-				<a href="https://twitter.com/_fgustafsson">
+				<a href="https://twitter.com/_fgustafsson" target="_blank">
 					<i class="fa fa-twitter" aria-hidden="true"></i>
 				</a>
-				<a href="https://se.linkedin.com/in/fgustafsson95">
+				<a href="https://se.linkedin.com/in/fgustafsson95" target="_blank">
 					<i class="fa fa-linkedin" aria-hidden="true"></i>
 				</a>
 			</div>
