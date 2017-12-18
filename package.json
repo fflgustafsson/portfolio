@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-theme",
+  "version": "1.0.0",
+  "description": "My own portfolio-theme.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "?"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fflgustafsson/portfolio.git"
+  },
+  "author": "Frida Gustafsson",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/fflgustafsson/portfolio/issues"
+  },
+  "homepage": "https://github.com/fflgustafsson/portfolio#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-minify": "^2.1.0",
+    "gulp-sass": "^3.1.0"
+  }
+}
