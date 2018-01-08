@@ -233,7 +233,8 @@ a {
 section.page {
   max-width: 1280px;
   width: 100%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  box-sizing: border-box; }
 
 .CV__maininfo {
   width: 100%;
@@ -298,47 +299,64 @@ section.workinprogress {
 .page-id-13 .header {
   display: none; }
 
-.contact__img {
-  width: 46%;
-  float: left;
-  margin: 20px; }
-  .contact__img img {
-    width: 100%;
-    height: 100%; }
+@media all and (max-width: 1280px) {
+  section.page {
+    padding: 0 1.5em; } }
 
-.contact__intro {
-  float: left;
-  width: 46%;
-  margin: 20px;
-  display: inline-block; }
-  .contact__intro h1 {
-    margin: 0.5em 0; }
-  @media all and (max-width: 1440px) {
-    .contact__intro {
-      min-height: 500px; } }
-  @media all and (max-width: 1024px) {
-    .contact__intro {
-      min-height: 400px; } }
-
-.contact section {
-  display: inline-block; }
-
-.contact__columns {
-  width: 46%;
-  float: left;
-  margin: 20px;
-  min-height: 230px;
-  text-align: center;
-  display: inline-block; }
-  .contact__columns .fa {
+.contact {
+  box-sizing: border-box; }
+  .contact__img {
+    width: 46%;
+    float: left;
+    margin: 20px; }
+    .contact__img img {
+      width: 100%;
+      height: 100%; }
+    @media all and (max-width: 768px) {
+      .contact__img {
+        width: 100%;
+        margin: 20px 0 0; } }
+  .contact__intro {
+    float: left;
+    width: 46%;
+    margin: 20px;
+    display: inline-block; }
+    .contact__intro h1 {
+      margin: 0.5em 0; }
+    @media all and (max-width: 1440px) {
+      .contact__intro {
+        min-height: 500px; } }
+    @media all and (max-width: 1024px) {
+      .contact__intro {
+        min-height: 400px; } }
+    @media all and (max-width: 768px) {
+      .contact__intro {
+        width: 100%;
+        margin: 0 0 20px; } }
+  .contact section {
+    display: inline-block; }
+  .contact__columns {
+    width: 46%;
+    float: left;
+    margin: 20px;
+    min-height: 230px;
     text-align: center;
-    font-size: 1.5em; }
-  @media all and (max-width: 1440px) {
-    .contact__columns {
-      min-height: 230px; } }
-  @media all and (max-width: 1024px) {
-    .contact__columns {
-      min-height: 250px; } }
+    display: inline-block; }
+    .contact__columns .fa {
+      text-align: center;
+      font-size: 1.5em; }
+    @media all and (max-width: 1440px) {
+      .contact__columns {
+        min-height: 230px; } }
+    @media all and (max-width: 1024px) {
+      .contact__columns {
+        min-height: 250px; } }
+    @media all and (max-width: 768px) {
+      .contact__columns {
+        width: 100%;
+        margin: 0 0 20px;
+        min-height: 75px;
+        text-align: left; } }
 
 .project__wrap {
   display: -webkit-box;
@@ -468,9 +486,15 @@ section.workinprogress {
     .projectpost__description__cat {
       margin: 1em 0 0; }
 
-@media screen and (max-width: 1280px) {
-  .project__wrap {
-    margin: 1em 0.5em 0; } }
+@media all and (max-width: 768px) {
+  .projectpost {
+    flex-flow: column-reverse; }
+    .projectpost__description {
+      width: 100%;
+      padding: 1em 0em 2em; }
+    .projectpost__visual {
+      width: 100%;
+      padding: 0; } }
 
 @media screen and (max-width: 600px) {
   .project__wrap .project {

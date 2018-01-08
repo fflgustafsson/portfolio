@@ -44,8 +44,6 @@
 			</div>
 		</div>
 
-		<div class="nav__overlay js-nav-overlay"></div>
-
 		<header class="header" role="banner">
 			
 			<div class="header__logo">

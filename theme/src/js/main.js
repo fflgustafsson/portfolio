@@ -37,6 +37,7 @@ $( document ).ready(function() {
 	sr.reveal('.contact__img');
 	sr.reveal('.contact__intro');
 	sr.reveal('.contact__columns');
+	sr.reveal('.project');
 
 	// Bildspel
 	$('.flexslider').flexslider({

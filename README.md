@@ -11,5 +11,7 @@ Based on what I think is needed to show and how to show in your portfolio as a d
 
 The only add-on you need is ACF.
 
+BUT. Use node_modules and gulp for most effective work.
+
 // fflgustafsson 
 http://fgustafsson.se

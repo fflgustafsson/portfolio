@@ -2,6 +2,7 @@ section.page {
 	max-width: 1280px;
 	width: 100%;
 	margin: 0 auto;
+	box-sizing: border-box;
 }
 
 .CV {
@@ -97,3 +98,10 @@ section.workinprogress {
 	}
 
 }
+
+@media all and (max-width: 1280px) {
+	section.page {
+		padding: 0 1.5em;
+	}
+}
+
